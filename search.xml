@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>自我介绍</title>
+      <link href="/posts/20250323d.html"/>
+      <url>/posts/20250323d.html</url>
+      
+        <content type="html"><![CDATA[<h1>自我介绍</h1><h2 id="1-我自己">1.我自己</h2><p>我是<strong>爱玩电脑的winver</strong>，今年<u>12岁</u>。我平时喜欢玩电脑，学过一些编程语言，像<code>Python、C++和HTML</code>虽然还没到精通的地步，但能用它们做些简单的小程序和网页，觉得挺有意思。</p><h2 id="2-我的朋友">2.我的朋友</h2><p>我有个朋友叫<strong>爱捡数码垃圾的小张</strong>，他喜欢捣鼓一些<u>电脑的知识</u>，比如：<code>部署网站（Halo）</code>。他觉得挺有意思的。我们俩因为这个成了好朋友，偶尔会一起捣鼓这些玩意儿。</p><h2 id="总结">总结</h2><p>虽然我们都还只是小学生，但觉得能做自己喜欢的事，还挺开心的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 自我介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 自我介绍 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown语法与外挂标签写法汇总</title>
       <link href="/posts/2013454d.html"/>
       <url>/posts/2013454d.html</url>
