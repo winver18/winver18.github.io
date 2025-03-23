@@ -3176,7 +3176,7 @@ if (localStorage.getItem("blogbg") != undefined) {
 } else {
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://source.fomal.cc/img/home_bg.webp);
-    --darkmode-bg:url(hhttps://source.fomal.cc/img/home_bg.webp);
+    --darkmode-bg:url(https://source.fomal.cc/img/home_bg.webp);
     --mobileday-bg: url(https://source.fomal.cc/img/home_bg.webp);
     --mobilenight-bg: url(https://source.fomal.cc/img/home_bg.webp);
   }`;
