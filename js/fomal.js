@@ -3175,10 +3175,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://source.fomal.cc/img/home_bg.webp);
-    --darkmode-bg:url(https://source.fomal.cc/img/home_bg.webp);
-    --mobileday-bg: url(https://source.fomal.cc/img/home_bg.webp);
-    --mobilenight-bg: url(https://source.fomal.cc/img/home_bg.webp);
+    --default-bg: url(https://t.mwm.moe/fj);
+    --darkmode-bg:url(https://t.mwm.moe/fj);
+    --mobileday-bg: url(https://t.mwm.moe/fj);
+    --mobilenight-bg: url(hhttps://t.mwm.moe/fj);
   }`;
 }
 // 切换背景主函数
@@ -3449,7 +3449,7 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 <details class="folding-tag" cyan><summary> 查看适配手机的背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/mp)" class="pimgbox" onclick="changeBg('url(https://t.mwm.moe/mp)')"></a></div>
               </div>
             </details>
 
