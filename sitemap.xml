@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://winver18.github.io/posts/20250329e.html</loc>
+    
+    <lastmod>2025-03-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://winver18.github.io/posts/20250329d.html</loc>
     
     <lastmod>2025-03-29</lastmod>
@@ -20,34 +29,7 @@
   </url>
   
   <url>
-    <loc>https://winver18.github.io/posts/20250323d.html</loc>
-    
-    <lastmod>2025-03-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://winver18.github.io/categories/index.html</loc>
-    
-    <lastmod>2023-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://winver18.github.io/box/gallery/index.html</loc>
-    
-    <lastmod>2023-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://winver18.github.io/life/games/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -65,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://winver18.github.io/site/census/index.html</loc>
+    <loc>https://winver18.github.io/box/nav/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -83,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://winver18.github.io/box/nav/index.html</loc>
+    <loc>https://winver18.github.io/life/games/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -92,16 +74,7 @@
   </url>
   
   <url>
-    <loc>https://winver18.github.io/life/music/index.html</loc>
-    
-    <lastmod>2023-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://winver18.github.io/social/fcircle/index.html</loc>
+    <loc>https://winver18.github.io/box/gallery/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -119,7 +92,43 @@
   </url>
   
   <url>
+    <loc>https://winver18.github.io/personal/bb/index.html</loc>
+    
+    <lastmod>2023-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://winver18.github.io/life/music/index.html</loc>
+    
+    <lastmod>2023-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://winver18.github.io/personal/about/index.html</loc>
+    
+    <lastmod>2023-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://winver18.github.io/site/census/index.html</loc>
+    
+    <lastmod>2023-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://winver18.github.io/personal/love/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -137,16 +146,7 @@
   </url>
   
   <url>
-    <loc>https://winver18.github.io/personal/bb/index.html</loc>
-    
-    <lastmod>2023-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://winver18.github.io/personal/love/index.html</loc>
+    <loc>https://winver18.github.io/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
     
@@ -196,7 +196,7 @@
   </url>
   
   <url>
-    <loc>https://winver18.github.io/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</loc>
+    <loc>https://winver18.github.io/tags/B4259-GESP202503-%E4%BA%8C%E7%BA%A7-%E7%AD%89%E5%B7%AE%E7%9F%A9%E9%98%B5/</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -213,13 +213,6 @@
   
   <url>
     <loc>https://winver18.github.io/categories/C-%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2025-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://winver18.github.io/categories/%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
