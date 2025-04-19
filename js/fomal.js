@@ -674,7 +674,7 @@ if (document.body.clientWidth > 992) {
         zoom: 0.9,
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
-        nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",
+        nekoImg: "https://cdn.szyd.fun/2025/04/19/6803833e0e34f.png",
         hoverMsg: "春天啦~",
         color: "var(--theme-color)",
         during: 500,
