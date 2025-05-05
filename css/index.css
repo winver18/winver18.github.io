@@ -6714,10 +6714,13 @@ center#name-container {
 .menus_items .menus_item:nth-child(5) .menus_item_child {
   position: absolute;
   left: 0;
-  width: 100%; /* 子元素宽度与父元素相同 */
   transform: translateX(-100%); /* 将子元素向左移动自身宽度 */
 }
-
+.menus_items .menus_item:nth-child(6) .menus_item_child {
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%); /* 将子元素向左移动自身宽度 */
+}
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
 /* #page-header:not(.not-top-img):before {
   background-color: transparent !important;
