@@ -6692,22 +6692,30 @@ center#name-container {
 }
 /* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
 .menus_items .menus_item:nth-child(2) .menus_item_child {
-  left: -95px;
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%);
 }
 .menus_items .menus_item:nth-child(3) .menus_item_child {
-  left: -103px;
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%);
+}
+.menus_items .menus_item:nth-child(3) .menus_item_child {
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%);
 }
 .menus_items .menus_item:nth-child(4) .menus_item_child {
-  left: -102px;
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%);
 }
 .menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -117px;
-}
-.menus_items .menus_item:nth-child(6) .menus_item_child {
-  left: -133px;
-}
-.menus_items .menus_item:nth-child(7) .menus_item_child {
-  left: -105px;
+  position: absolute;
+  left: 0;
+  width: 100%; /* 子元素宽度与父元素相同 */
+  transform: translateX(-100%); /* 将子元素向左移动自身宽度 */
 }
 
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
