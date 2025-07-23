@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Ventoy也能豪堪？教你自定义Ventoy主题！</title>
+      <link href="/posts/723203000.html"/>
+      <url>/posts/723203000.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Ventoy-界面自定义教程"><a href="#Ventoy-界面自定义教程" class="headerlink" title="Ventoy 界面自定义教程"></a>Ventoy 界面自定义教程</h1><blockquote><p>Ventoy 也能豪堪？教你自定义 Ventoy 主题！</p></blockquote><hr><h2 id="版权与声明"><a href="#版权与声明" class="headerlink" title="版权与声明"></a>版权与声明</h2><ul><li><strong>文字整理：</strong> Ctrl_Flow  </li><li><strong>核心思路 &amp; 视频作者：</strong> Gary_Ethereal  </li><li><strong>原视频：</strong> <a href="https://www.bilibili.com/video/BV12FMdzuEdS">【教程向】Ventoy也能豪堪？教你自定义Ventoy主题！</a>  </li><li><strong>授权说明：</strong> 本文档经 Gary_Ethereal 授权整理发布，<strong>未经授权禁止二次转发</strong>。</li></ul><hr><h2 id="软硬件需求清单"><a href="#软硬件需求清单" class="headerlink" title="软硬件需求清单"></a>软硬件需求清单</h2><div class="table-container"><table><thead><tr><th>类别</th><th>名称 / 说明</th></tr></thead><tbody><tr><td><strong>浏览器</strong></td><td>任意现代浏览器（推荐 Chromium 108+）</td></tr><tr><td><strong>压缩软件</strong></td><td>Bandizip / WinRAR</td></tr><tr><td><strong>Ventoy 本体</strong></td><td>官网 <a href="https://www.ventoy.net">Download . Ventoy</a></td></tr><tr><td><strong>图像处理</strong></td><td>Adobe Photoshop / PowerPoint / MasterGO</td></tr><tr><td><strong>虚拟机</strong></td><td>VMware Workstation Pro（<a href="https://123pan.com/s/aDE9-toryh">123云盘免登录下载</a> 或博通官网注册）</td></tr><tr><td><strong>操作系统</strong></td><td>Windows 10 / 11</td></tr><tr><td><strong>网络</strong></td><td>可正常联网</td></tr><tr><td><strong>U 盘</strong></td><td>≥ 16 GB，用于制作 Ventoy 启动盘</td></tr></tbody></table></div><hr><h2 id="正式步骤"><a href="#正式步骤" class="headerlink" title="正式步骤"></a>正式步骤</h2><h3 id="1-获取-GRUB-主题"><a href="#1-获取-GRUB-主题" class="headerlink" title="1. 获取 GRUB 主题"></a>1. 获取 GRUB 主题</h3><ol><li>打开浏览器，搜索 <strong>“Grub 主题”</strong> 或直接访问 <a href="https://www.gnome-look.org/browse?cat=109&amp;ord=latest">Gnome-look.org › GRUB Themes</a>。</li><li>以 <strong>Elegant-forest</strong> 为例，进入其 <a href="https://www.pling.com/p/1307854/">详情页</a>：<ul><li>选择 <strong>Files → Elegant-forest-window-grub-themes.tar.xz</strong>（≈ 12 MB）。</li></ul></li><li>下载后用 Bandizip / WinRAR 解压，选择与自己分辨率匹配的文件夹（1920×1080 或 1280×720）。</li></ol><h3 id="2-自定义背景"><a href="#2-自定义背景" class="headerlink" title="2. 自定义背景"></a>2. 自定义背景</h3><ol><li>进入解压后的主题文件夹，<strong>仅保留主题主目录</strong>，其余删除。</li><li>用 PowerPoint（或 PS）新建空白演示文稿：<ul><li><strong>版式 → 空白</strong>。</li><li>把 <code>background.jpg</code> 拖入作为背景。</li></ul></li><li><strong>设计思路</strong>（可替换为个人风格）：<ul><li>插入 <strong>圆角矩形</strong> 覆盖中间区域，透明度 40%。</li><li>复制一个对齐，再插入第三个圆角矩形框出中间不透明部分。</li><li>删除原 <code>background.jpg</code>，替换为自选背景并设置高斯模糊（半径 100）。</li><li>新建白色全屏矩形，透明度 10%–20%，置于最上层。</li><li>导入 <code>info.jpg</code> 做布局参考，重绘或替换图标、文字、Logo 等。</li></ul></li><li>完成后导出为 <code>background.jpg</code>（1920×1080）。</li></ol><blockquote><p>作者已提供 PPT 模板，可在此基础上快速修改：<br><a href="https://www.123912.com/s/3MWoTd-3IUAH">Ventoy主题.pptx</a> 提取码：<code>gary</code></p></blockquote><h3 id="3-修改-theme-txt"><a href="#3-修改-theme-txt" class="headerlink" title="3. 修改 theme.txt"></a>3. 修改 <code>theme.txt</code></h3><ol><li>打开主题根目录下的 <code>theme.txt</code>。</li><li>如无 <code>logo.png</code>，删除对应行；如有，请保留。</li><li><strong>字体</strong>（可选）：将所有 <code>.pf2</code> 字体文件路径写入 <code>theme.txt</code> 的 <code>fonts</code> 字段。</li></ol><h3 id="4-部署到-Ventoy"><a href="#4-部署到-Ventoy" class="headerlink" title="4. 部署到 Ventoy"></a>4. 部署到 Ventoy</h3><ol><li>将 Ventoy 写入 U 盘（建议 GPT + UEFI）。</li><li>把<strong>改好的主题文件夹</strong>整体复制到U盘</li><li>运行 Ventoy 安装目录下的 <strong>VentoyPlugson.exe</strong>：</li></ol><ul><li>选择 U 盘后点击 <strong>启动</strong>，浏览器会自动打开本地配置页面。</li><li><strong>左侧 → 主题插件 → theme-file → 新增</strong><br>填写主题文件夹内 <code>theme.txt</code> 的<strong>绝对路径</strong>（去掉系统自带引号）。</li><li><strong>gfxmode → 分辨率</strong> 建议 <code>1920x1080</code>（兼容性最佳）。</li><li><strong>fonts → 新增</strong> 依次添加所有 <code>.pf2</code> 字体文件。</li><li><strong>菜单类型插件 → menu_class → 新增</strong><br>通过镜像文件名关键字匹配图标（可选，仅美化）。</li></ul><ol><li>完成后点击 <strong>停止管理进程</strong>。</li></ol><hr><h2 id="效果验证"><a href="#效果验证" class="headerlink" title="效果验证"></a>效果验证</h2><h3 id="VMware-测试"><a href="#VMware-测试" class="headerlink" title="VMware 测试"></a>VMware 测试</h3><ol><li>新建虚拟机 → 自定义 → <strong>UEFI + 安全启动</strong>。</li><li>虚拟机设置 → 电源 → 启动时进入固件。</li><li>右下角挂载 Ventoy U 盘 → Reset → ESC → 选 <strong>EFI USB Device</strong>。</li><li>若出现 MOK 管理界面，按提示：</li></ol><ul><li>Enroll key from disk → 选择 <code>ENROLL_THIS_KEY_IN_MOKMANAGER.cer</code> → YES → Reboot。</li></ul><ol><li>成功启动即可看到自定义主题。</li></ol><h3 id="实体机启动"><a href="#实体机启动" class="headerlink" title="实体机启动"></a>实体机启动</h3><ol><li>开机瞬间按主板快捷键（常见：ESC / F2 / F7 / F8 / F12 / DEL）。</li><li>选择 <strong>UEFI: (U盘品牌/型号)</strong> 回车即可。</li></ol><hr><h2 id="常用下载链接"><a href="#常用下载链接" class="headerlink" title="常用下载链接"></a>常用下载链接</h2><div class="table-container"><table><thead><tr><th>名称</th><th>地址</th></tr></thead><tbody><tr><td>Chrome</td><td><a href="https://www.google.com/chrome/">Google Chrome</a></td></tr><tr><td>Ventoy</td><td><a href="https://www.ventoy.net">Download.Ventoy</a></td></tr><tr><td>示例主题</td><td><a href="https://www.pling.com/p/1307854/">Elegant-forest</a></td></tr><tr><td>VMware</td><td><a href="https://123pan.com/s/aDE9-toryh">VMware Workstation Pro（Z极客）</a></td></tr><tr><td>Bandizip</td><td><a href="https://www.bandisoft.com/bandizip/">Bandizip 官网</a></td></tr><tr><td>PPT 模板</td><td><a href="https://www.123912.com/s/3MWoTd-3IUAH">Ventoy主题.pptx</a> 提取码：<code>gary</code></td></tr><tr><td>主板快捷键图</td><td><a href="https://pic4.zhimg.com/v2-310182fe31d0c7161e37fe30b2cab2c1_r.jpg">主板快捷键图</a></td></tr></tbody></table></div><hr><h2 id="完结撒花！"><a href="#完结撒花！" class="headerlink" title="完结撒花！"></a>完结撒花！</h2><p>祝你玩得开心，把 Ventoy 打造成独一无二的启动盘！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 视频资源 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 哔哩哔哩 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>BypassNRO被移除？今天教你Windows11最新预览版跳过联网</title>
       <link href="/posts/EP07.html"/>
       <url>/posts/EP07.html</url>
